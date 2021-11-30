@@ -1,0 +1,5 @@
+Day 2: 
+ - Creating a new Angular project 
+ - Navigating the files & folders 
+ - TypeScript Introduction 
+ - Connecting and using Bootstrap 

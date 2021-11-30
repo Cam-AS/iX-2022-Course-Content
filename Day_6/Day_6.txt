@@ -1,0 +1,5 @@
+Day 6:
+ - API Endpoints, Creating Routes in Express
+ - API Data Models, Creating Backend Models
+ - API Data Manipulation, Creating Backend Controllers
+ - API Testing, Endpoint tests using Postman

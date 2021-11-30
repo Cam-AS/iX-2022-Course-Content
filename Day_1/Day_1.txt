@@ -1,0 +1,9 @@
+Day 1: 
+ - Introductions
+ - Course Expectations & Overview
+ - Project Overview
+ - GitHub
+ - Git
+ - HTML
+ - CSS
+ - JavaScript

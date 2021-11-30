@@ -21,4 +21,4 @@ Primitives: numbers, strings, boolean are core types (null & undefined are used 
 More complex: arrays, objects
 
 Type Inference
-Function types, parameters, Classes
+Function types, parameters, Classes & Interfaces

@@ -7,3 +7,8 @@ Day 1:
  - HTML
  - CSS
  - JavaScript
+
+Exercises:
+ - Introduce Yourself 
+ - CSS Color Grid
+ - CSS Grid Website

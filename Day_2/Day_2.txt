@@ -3,3 +3,19 @@ Day 2:
  - Navigating the files & folders 
  - TypeScript Introduction 
  - Connecting and using Bootstrap 
+
+Create a new project:
+ - ng new <project-name>
+
+Navigating Files & Folders;
+ - package.json: contains all your package dependencies 
+ - gitignore: contains a list of things you don't want added to GitHub
+ - src: main project folder
+ - app: your project, modules, coponents, services, models
+ - assets: a place for your project assets (images)
+ - environments: configure your local or production environment specs
+
+Run Project: 
+ - ng serve
+ - then open chrome to localhost:4200, you will see the Angular landing page
+

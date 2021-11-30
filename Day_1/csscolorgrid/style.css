@@ -1,0 +1,48 @@
+.container {
+  background-color: rgba(0,0,0,0.7);
+  padding: 5px;
+}
+
+.row-1 {
+  display: flex;
+}
+
+.row-2-container {
+  display: flex;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 0px;
+  margin: 5px;
+}
+
+.box-33 {
+  width: 33.333%;
+}
+
+.box-66 {
+  width: 66.66%;
+}

@@ -19,3 +19,9 @@ Run Project:
  - ng serve
  - then open chrome to localhost:4200, you will see the Angular landing page
 
+Adding Bootstrap:
+ - npm install --save bootstrap (Check Node Modules)
+ - Make Angular Aware of Bootstrap in Angular.json
+ - styles []
+ - Add "node_modules/bootstrap/dist/css/bootstrap.min.css"
+

@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
+import { InterestCalculatorComponent } from './components/interest-calculator/interest-calculator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InterestCalculatorComponent
   ],
   imports: [
     BrowserModule,

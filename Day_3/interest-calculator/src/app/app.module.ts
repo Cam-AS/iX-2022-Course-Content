@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
 import { InterestCalculatorComponent } from './components/interest-calculator/interest-calculator.component';
+import { ParentComponent } from './components/parent/parent.component';
+import { ChildComponent } from './components/child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InterestCalculatorComponent
+    InterestCalculatorComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LandingPageComponent } from './landing-page.component';
+import { ModalsComponent } from './modals.component';
 
-describe('LandingPageComponent', () => {
-  let component: LandingPageComponent;
-  let fixture: ComponentFixture<LandingPageComponent>;
+describe('ModalsComponent', () => {
+  let component: ModalsComponent;
+  let fixture: ComponentFixture<ModalsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LandingPageComponent ]
+      declarations: [ ModalsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LandingPageComponent);
+    fixture = TestBed.createComponent(ModalsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

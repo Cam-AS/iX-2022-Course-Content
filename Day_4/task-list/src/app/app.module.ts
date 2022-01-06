@@ -3,16 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+import { ModalsComponent } from './components/modals/modals.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent
+    NavbarComponent,
+    HomeComponent,
+    TasksComponent,
+    ModalsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

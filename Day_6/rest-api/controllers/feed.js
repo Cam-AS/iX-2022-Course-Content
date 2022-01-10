@@ -27,13 +27,11 @@ exports.getPosts = (req, res, next) => {
   postQuery
     .then((documents) => {
       fetchedPosts = documents;
-      return Post.count();
     })
-    .then((count) => {
+    .then(() => {
       res.status(200).json({
         message: 'Posts fetched successfully!',
         posts: fetchedPosts,
-        maxPosts: count,
       });
     })
     .catch((error) => {
@@ -61,5 +59,35 @@ exports.createPost = (req, res, next) => {
     })
     .catch((err) => {
       console.log(err);
+    });
+};
+
+exports.deletePost = (req, res, next) => {
+  Post.deleteOne({ _id: req.params.id })
+    .then((result) => {
+      res.status(200).json({ message: 'Deletion successful!' });
+    })
+    .catch((error) => {
+      res.status(500).json({
+        message: 'Fetching posts failed!',
+      });
+    });
+};
+
+exports.updatePost = (req, res, next) => {
+  Post.findByIdAndUpdate(
+    { _id: req.params.id },
+    {
+      title: req.body.title,
+      content: req.body.content,
+    }
+  )
+    .then((result) => {
+      res.status(200).json({ message: 'Update successful!' });
+    })
+    .catch((error) => {
+      res.status(500).json({
+        message: 'Could not update post!',
+      });
     });
 };

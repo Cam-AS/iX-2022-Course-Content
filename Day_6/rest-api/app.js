@@ -6,7 +6,6 @@ const feedRoutes = require('./routes/feed');
 
 const app = express();
 
-// We need this middleware to parse incoming data so we can extract it on the req.body
 app.use(bodyParser.json());
 
 app.use((req, res, next) => {

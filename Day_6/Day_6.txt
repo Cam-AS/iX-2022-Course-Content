@@ -16,7 +16,7 @@ Steps to build first-REST-api:
 - create express app
 - listen on a port
 
-At this point we have ouor most basic server
+At this point we have our most basic server
 
 - npm install body-parser (parse incoming request bodies)
 - create routes folder (we want to separate all the logic)
